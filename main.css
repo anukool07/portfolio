@@ -1,0 +1,102 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body{
+	background-image: url('main.jpg');
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	background-size: cover;
+}
+
+
+.head{
+	background: rgb(214, 210, 207);
+	max-width: 1200px;
+	margin: 0 auto ;
+	opacity: 0.6;
+}
+
+.nav{
+	float: right;
+}
+
+.nav ul li{
+	display: inline-block;
+}
+
+.nav ul li a{
+	text-decoration: none;
+	padding-right: 30px; 
+	font:italic bold 30px 'Dancing Script', cursive ;
+	color: black;
+	line-height: 90px;
+}
+
+.nav ul li a:hover{
+	color: rgb(85, 159, 178)
+	
+}
+
+.sect{
+	max-width: 1200px;
+	margin: 0 auto ;
+	margin-top: 0px;
+	opacity: 1;
+	margin-bottom: 0px;
+}
+.circle{
+	border-radius: 50%;
+	margin-top: 110px;
+	margin-left: 50px;
+	float: left;
+	
+}
+.article{
+	font:italic bold 30px 'Dancing Script', cursive ;
+	color: black;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	padding: 0px;
+
+}
+
+.footer{
+	background-color:  rgb(214, 210, 207);
+	text-align: center;
+	padding: 3px;
+	max-width: 1200px;
+	margin: 0 auto ;
+	opacity: 0.6;
+	clear: both;
+}
+.box{
+  width:800px;
+  position: relative;
+  left:0%;
+  padding: 5px;
+  background:rgb(214, 210, 207);
+  border-radius: 10px;
+  float: right;
+  opacity: 0.6;
+  margin-bottom: 50px;
+  margin-top: 0px;
+  padding-bottom: 40px;
+}
+h1.anime{
+	 text-shadow: 2px 2px 8px black;
+	 animation: fadein 3s ease-in 0s;
+	 text-rendering: optimizeLegibility;
+
+}
+@keyframes fadein{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
